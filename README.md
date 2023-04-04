@@ -3,7 +3,6 @@ main site for auli + web demos
 
 ## Tools
 - Sveltekit
-- Github-?-Vercel hi never seen until you want hello Persian I have Heard I have prepared documentsInvert good morning Siri single slow offer and will be comfortable discussing how do you spell it affective and and compare section 785
 - DB-?-Supabase
 
 ## Wireframe
