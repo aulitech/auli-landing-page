@@ -1,37 +1,5 @@
 <!DOCTYPE html><!--  Last Published: Sun Sep 25 2022 20:21:23 GMT+0000 (Coordinated Universal Time)  -->
-<!--
-<head>
-</head>
 
-<body class="body" id="iframe_target" onload="iframe_loader()">
-
-    <iframe src="https://express.adobe.com/page/axAbSAlv4df72/" width="1280" height="720" title="Iframe"></iframe>
-
-</body>
-
-
-<script type="text/javascript">
-  function iframe_loader() {
-    const height = window.innerHeight;
-    const width = window.innerWidth;
-
-    var iframe_target = document.getElementById("iframe_target");
-    var iframe_parms = document.createElement("iframe");
-    iframe_parms.src = "https://express.adobe.com/page/axAbSAlv4df72/";
-    iframe_parms.width = width;
-    iframe_parms.height = height;
-    iframe_parms.title = "AULI";
-
-    var iframe_node = iframe_target.appendChild(iframe_parms);
-    iframe_node.setAttribute("width", width - 100);
-  }
-</script>
-
-
-
-</html>
-    -->
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -47,7 +15,8 @@
 
     html,
     body,
-    div {
+    div,
+    iframe {
       margin: 0px;
       padding: 0px;
       height: 100%;
@@ -55,14 +24,9 @@
     }
 
     iframe {
-      margin: 0px;
-      padding: 0px;
-      height: 100%;
       display: block;
       width: 100%;
-      border: none;
-      overflow-y: hidden;
-      overflow-x: hidden;
+      overflow: hidden;
     }
   </style>
 </head>
