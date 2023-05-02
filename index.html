@@ -3,10 +3,33 @@
 <head>
 </head>
 
-<body class="body">
 
-<iframe src="https://express.adobe.com/page/axAbSAlv4df72/" style="height:100vh;width:100vh;" title="AULI.TECH">
-</iframe>
+
+<body class="body">
+  <div id="iframe_target"></div>
 </body>
+
+<script type="text/javascript">
+  const height = window.innerHeight;
+  const width = window.innerWidth;
+
+  var iframe_target = document.getElementById("iframe_target");
+
+  // create iframe
+  var iframe_parms = document.createElement("iframe");
+  // Add attributes
+  iframe_parms.src = "https://express.adobe.com/page/axAbSAlv4df72/";
+  // Set size and hide iframe border
+  iframe_parms.width = width;
+  iframe_parms.height = height
+  iframe_parms.frameBorder = "0";
+  iframe_parms.scrolling = "0";
+  iframe_parms.style.border = "none";
+  iframe_parms.style.background = "white";
+
+  // Add Iframe to webpage
+  iframe_target.appendChild(iframe_parms);
+
+</script>
 
 </html>
